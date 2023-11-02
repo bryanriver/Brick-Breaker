@@ -2,7 +2,7 @@ extends CanvasLayer
 
 class_name UI
 
-@onready var lives_label = %LivesLabel
+@onready var lives_label = % LivesLabel
 @onready var game_lost_container = $GameLostContainer
 
 func set_lives(lives: int):
